@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parcijalni ispit HTML">
+    <meta name="author" content="Valentina Vujevic">
+    <title>Turistička agencija 'Avanturist'</title>
+    <link rel="stylesheet" href="mojstil.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="glava">
+        <h1><b>Turistička agencija 'Avanturist'</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#onama"><em>O nama</em></a></li>
+                <li><a href="#nasedjelatnosti"><em>Naše djelatnosti</em></a></li>
+                <li><a href="#kontakt"><em>Kontakt</em></a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main class="glavno">
+        <h2 id="onama">O nama</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sint, enim nam eos eligendi mollitia, iusto repellendus quae ut in similique deleniti omnis maiores autem molestias consequatur voluptate. Repellendus sunt ratione iure adipisci mollitia similique magni? Accusamus veritatis minima corrupti facere dolor excepturi. Qui sequi, doloribus voluptatum magni illum ipsa!
+            <figure>
+                <img src="./SLIKE/team.jpg" alt="Radno okruzenje">
+                <figcaption>Picture 1 - Hrvatska, Zagreb, zivot u uredu</figcaption>
+              </figure> 
+        </p>
+        <article>
+            <h2 id="nasedjelatnosti">Naše djelatnosti</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod fugiat nesciunt corrupti illum? Quos laborum, autem commodi nulla fuga ad dicta dolorum accusamus sapiente doloribus saepe ipsum dolorem nostrum. Aut totam hic sed labore, minima consectetur reiciendis nihil accusantium exercitationem laudantium, deleniti unde? Tempore ducimus voluptas maiores fugiat libero!</p>
+            <figure>
+                <img src="./SLIKE/adventure.jpg" alt="Citati">
+                <figcaption>Picture 2 - Motivacija za putovanje</figcaption>
+              </figure> 
+        </article>
+        <section>
+            <h2 id="kontakt">Kontakt</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus rem quae obcaecati iusto fugiat quaerat expedita ab optio in sint recusandae, saepe ipsam, fuga dolores? Est repudiandae ratione, esse et dolores deleniti placeat at temporibus rem ab perferendis excepturi eaque dolor dolorem eum laudantium. Veniam quis sint rem possimus labore!</p>
+        </section>
+        <form action="" method="">
+            <label for="fname">Ime i prezime:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Vase ime i prezime" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" 
+             pattern=".+@gmail|hotmail|yahoo|outlook\.com" size="30" required>
+             <br>
+             <br>
+            <label for="poruka">Poruka:</label>
+            <textarea id="subject" name="poruka" placeholder="Unesite zeljeni tekst.."></textarea>
+            <input type="submit" value="Posalji poruku">
+          </form>
+    </main>
+    <hr>
+    <footer class="noge">
+        <small>&copy; Avanturist, 2022</small>
+        <div>
+            <a href="mailto:valentinaa.vujevic@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
